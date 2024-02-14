@@ -30,42 +30,30 @@ body {
     color: #404040;
 }
 
-.title-container {
+.content-container {
     width: 100vw;
     height: 85vh;
     display: flex;
 }
 
-.title {
-    font-family: 'Kulim Park', sans-serif;
-    font-size: 100px;
+.content {
+    font-family: "Spline Sans";
+    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 110px;
-    display:grid;
-    text-align: center;
+    font-weight: 500;
+    line-height: normal;
     text-transform: uppercase;
-    width: 100vw;
+    text-align: center;
+    display:grid;
+    width: 60vw;
     height: 100vh;
+    margin-left: 20vw;
+    padding-top: 200px;
     z-index: 7;
     position: fixed;
     object-fit: cover;
-    text-align: center;
-    margin-top: 120px;
+    text-align: justify;
     filter: blur(1px);
-    animation: fadeIn 2000ms;
-}
-
-.title:hover {
-    letter-spacing: 50px;
-    animation: blinker .3s linear infinite;
-    transform: scale(-1, 1);
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 20%;
-  }
 }
 
 .text-container {
@@ -90,18 +78,9 @@ body {
     height: 10vh;
     text-transform: uppercase;
     filter: blur(1px);
-    animation: fadeIn 2000ms;
   }
 
 a {
     text-decoration: none;
     color: #404040;;
 }
-  
-
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: .5; }
-    100% { opacity: 1; }
-}
-
