@@ -44,7 +44,7 @@ body {
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
-    display:flexbox;
+    display: inline-block;
     width: 60vw;
     height: 100vh;
     margin-left: 20vw;

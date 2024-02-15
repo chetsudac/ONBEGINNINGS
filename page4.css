@@ -1,0 +1,111 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #191919;
+}
+
+body {
+    color: #d9d9d9;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.title-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.title {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110px;
+    display:grid;
+    text-transform: uppercase;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.content-container {
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Spline Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.content {
+    -moz-transform: translateY(100%);
+ -webkit-transform: translateY(100%);
+ transform: translateY(100%);
+ 
+ -moz-animation: my-animation 30s linear;
+ -webkit-animation: my-animation 30s linear;
+ animation: my-animation 30s linear;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
+
+
+  .button-abandon {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110px;
+    display: grid;
+    text-transform: uppercase;
+    position:relative;
+    text-align: center;
+  }
+
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
