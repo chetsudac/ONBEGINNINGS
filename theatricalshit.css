@@ -21,8 +21,8 @@ html {
   }
   
   @keyframes blinker {
-    50% {
-      opacity: 50%;
+    55% {
+      opacity: 55%;
     }
   }
 
@@ -88,4 +88,15 @@ a {
 .content-highlight {
     font-size: 80px;
     text-align: center;
+}
+
+.content-highlight:hover {
+  font-style: italic;
+  animation: blinker .3s linear infinite;
+}
+
+.text-navigation:hover {
+  font-style: italic;
+  animation: blinker .3s linear infinite;
+  font-size: 30px;
 }

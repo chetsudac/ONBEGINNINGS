@@ -56,3 +56,24 @@ body {
   transform: rotateY(180deg);
   text-align: left;
 }
+
+.button-container {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.button {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  display: grid;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}

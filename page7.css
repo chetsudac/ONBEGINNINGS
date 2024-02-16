@@ -1,0 +1,50 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #D9D9D9;
+    color: #404040;
+}
+
+body {
+    width: 100vw;
+    padding: 100px;
+    font-family: "Spline Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.child {
+    font-size: 40px;
+    width: 200px;
+    height: 100px;
+}
+
+.container:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+.content {
+    padding-top: 15px;
+    text-align: justify;
+}

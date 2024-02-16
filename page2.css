@@ -21,8 +21,8 @@ html {
   }
   
   @keyframes blinker {
-    50% {
-      opacity: 50%;
+    55% {
+      opacity: 55%;
     }
   }
 
@@ -91,6 +91,11 @@ body {
     text-transform: uppercase;
     filter: blur(1px);
     animation: fadeIn 2000ms;
+  }
+
+  .text-navigation:hover {
+    font-style: italic;
+    animation: blinker .3s linear infinite;
   }
 
 a {
