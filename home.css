@@ -7,15 +7,15 @@ body {
     color: #404040;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .title {
     font-family: 'Kulim Park', sans-serif;
-    font-size: 140px;
+    font-size: 150px;
     font-style: normal;
     font-weight: 600;
-    line-height: 120px;
+    line-height: 130px;
     display:inline-block;
     text-align: center;
     width: 90vw;
@@ -44,9 +44,8 @@ body {
     width: 80vw;
     display:flex ;
     justify-content: space-around;
-    padding-left: 10vw;
+    margin-left: 10vw;
     padding-top: 15vh;
-    padding-bottom: 5vh;
     color: #404040;
     font-family: "Spline Sans";
     font-size: 40px;
@@ -91,112 +90,4 @@ a:visited {color:#404040;}
     50% { opacity: 0; }
     75% { opacity: 0.5; }
     100% { opacity: 1; }
-}
-
-.title {
-  display: none;
-}
-
-@media screen and (max-width: 399px){
-    .title {
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        display:inline-block;
-        text-align: center;
-        width: 65vw;
-    }
-
-    .subtitle {
-        width: 65vw;
-        display:flex ;
-        justify-content: space-between;
-        text-align: center;
-        font-family: 'Spline Sans', sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        border-bottom: 2px solid #404040;
-    }
-    .subtitle-left {
-        text-align: left;
-    }
-    .subtitle-right{
-        text-align: right;
-    }
-
-    .content-beginnings {
-        width: 60vw;
-        display:flex ;
-        justify-content: space-around;
-        padding-top: 4vh;
-        color: #404040;
-        font-family: "Spline Sans";
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 45px;
-        text-transform: uppercase;
-        text-align: center;
-        margin-left: 2vw;
-    }
-
-    a {
-        text-decoration: underline 2px solid #404040;
-        color:#404040;
-    }
-}
-
-@media screen and (min-width: 400px) {
-.title {
-        font-size: 140px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 120px;
-        display:inline-block;
-        text-align: center;
-        width: 90vw;
-    }
-
-    .subtitle {
-        width: 90vw;
-        display:flex ;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
-        font-family: 'Spline Sans', sans-serif;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-        border-bottom: 3px solid #404040;
-    }
-
-    .content-beginnings {
-        width: 80vw;
-        display:flex ;
-        justify-content: space-around;
-        margin-left: 5vw;
-        padding-top: 15vh;
-        color: #404040;
-        font-family: "Spline Sans";
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 60px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    a {
-        text-decoration: none;
-        color:#404040;
-    }
-
 }
