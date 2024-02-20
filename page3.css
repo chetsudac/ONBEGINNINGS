@@ -8,16 +8,17 @@ html {
 .container{
     width: fit-content;
     overflow:auto;
-    height: 150px;
+    height: 120px;
+    width: 100vw;
     display: flex;
     padding-top: 10px;
     text-transform: uppercase;
     color: #404040;
     font-family: "Spline Sans";
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
     text-align: justify;
   }
 
