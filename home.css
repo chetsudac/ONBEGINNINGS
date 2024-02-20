@@ -12,10 +12,10 @@ body {
 
 .title {
     font-family: 'Kulim Park', sans-serif;
-    font-size: 160px;
+    font-size: 180px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140px;
+    line-height: 160px;
     display:inline-block;
     text-align: center;
     width: 90vw;
@@ -149,10 +149,10 @@ a:visited {color:#404040;}
 
 @media screen and (min-width: 400px) {
 .title {
-        font-size: 160px;
+        font-size: 180px;
         font-style: normal;
         font-weight: 600;
-        line-height: 140px;
+        line-height: 160px;
         display:inline-block;
         text-align: center;
         width: 90vw;
