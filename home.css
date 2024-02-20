@@ -61,7 +61,8 @@ a {
     transition: 3s;
 }
 
-a:visited {color:#404040;}
+a:visited {color:#404040; text-decoration: none;}
+
  
   a:hover {
     text-align: center;
