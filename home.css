@@ -6,14 +6,16 @@ html {
 body {
     margin: 50px;
     color: #404040;
+    width: 100vw;
+    height: 100vh;
 }
 
 .title {
     font-family: 'Kulim Park', sans-serif;
-    font-size: 180px;
+    font-size: 200px;
     font-style: normal;
     font-weight: 600;
-    line-height: 160px;
+    line-height: auto;
     display:inline-block;
     text-align: center;
     width: 100vw;
@@ -143,10 +145,10 @@ a:visited {color:#404040;}
 
 @media screen and (min-width: 400px) {
 .title {
-        font-size: 180px;
+        font-size: 200px;
         font-style: normal;
         font-weight: 600;
-        line-height: 160px;
+        line-height: auto;
         display:inline-block;
         text-align: center;
         width: 100vw;
