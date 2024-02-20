@@ -19,7 +19,29 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: 60px;
-    text-align: justify;
+    text-align: center;
+  }
+
+  .content-2 {
+    text-align: left;
+  }
+
+ .content-3 {
+    text-align: right;
+    padding-left: 25vw;
+  }
+
+  .content-4 {
+    text-align: left;
+    padding-left: 25vw;
+  }
+
+  .content-5 {
+    text-align: left;
+  }
+
+  .content-6 {
+    text-align: right;
   }
 
   .button-container {
