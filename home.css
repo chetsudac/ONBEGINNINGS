@@ -12,10 +12,10 @@ body {
 
 .title {
     font-family: 'Kulim Park', sans-serif;
-    font-size: 160px;
+    font-size: 140px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140px;
+    line-height: 120px;
     display:inline-block;
     text-align: center;
     width: 90vw;
@@ -46,7 +46,7 @@ body {
     justify-content: space-around;
     padding-left: 10vw;
     padding-top: 15vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     color: #404040;
     font-family: "Spline Sans";
     font-size: 40px;
@@ -93,7 +93,7 @@ a:visited {color:#404040;}
     100% { opacity: 1; }
 }
 
-.title, .subtitle, .content-beginnings {
+.title {
   display: none;
 }
 
@@ -153,10 +153,10 @@ a:visited {color:#404040;}
 
 @media screen and (min-width: 400px) {
 .title {
-        font-size: 160px;
+        font-size: 140px;
         font-style: normal;
         font-weight: 600;
-        line-height: 140px;
+        line-height: 120px;
         display:inline-block;
         text-align: center;
         width: 90vw;
