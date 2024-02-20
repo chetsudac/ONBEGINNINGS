@@ -7,15 +7,15 @@ body {
     color: #404040;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 .title {
     font-family: 'Kulim Park', sans-serif;
-    font-size: 150px;
+    font-size: 165px;
     font-style: normal;
     font-weight: 600;
-    line-height: 130px;
+    line-height: 145px;
     display:inline-block;
     text-align: center;
     width: 90vw;
