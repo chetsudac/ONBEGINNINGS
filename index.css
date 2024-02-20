@@ -1,0 +1,189 @@
+html {
+    margin: 0;
+    background: #D9D9D9;
+}
+
+body {
+    margin: 50px;
+    color: #404040;
+}
+
+.title {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140px;
+    display:inline-block;
+    text-align: center;
+    width: 90vw;
+}
+
+.subtitle {
+    width: 90vw;
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid #404040;
+}
+
+.content-beginnings {
+    width: 80vw;
+    display:flex ;
+    justify-content: space-around;
+    margin-left: 5vw;
+    padding-top: 15vh;
+    color: #404040;
+    font-family: "Spline Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+a:visited {color:#404040;}
+ 
+  a:hover {
+    text-align: center;
+    color: #D9D9D9;
+    background-color: #404040;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+  }
+
+.appearthird {
+    animation: blinker 6s linear infinite;
+}
+
+.appearsecond {
+    animation: blinker 4s linear infinite;
+}
+
+.appearfirst {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    0% { opacity: 1; }
+    25% { opacity: 0.5; }
+    50% { opacity: 0; }
+    75% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.title {
+  display: none;
+}
+
+@media screen and (max-width: 499px){
+    .title {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        display:inline-flex;
+        text-align: center;
+        width: 30vw;
+    }
+
+    .subtitle {
+        width: 65vw;
+        display:flex ;
+        justify-content: space-between;
+        text-align: center;
+        font-family: 'Spline Sans', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        border-bottom: 2px solid #404040;
+    }
+    .subtitle-left {
+        text-align: left;
+    }
+    .subtitle-right{
+        text-align: right;
+    }
+
+    .content-beginnings {
+        width: 60vw;
+        display:flex ;
+        justify-content: space-around;
+        padding-top: 4vh;
+        color: #404040;
+        font-family: "Spline Sans";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+        text-transform: uppercase;
+        text-align: justify;
+        margin-left: 2vw;
+    }
+
+    a {
+        text-decoration: underline 2px solid #404040;
+    }
+}
+
+@media screen and (min-width: 950px) {
+.title {
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140px;
+        display:inline-block;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .subtitle {
+        width: 90vw;
+        display:flex ;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        font-family: 'Spline Sans', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        border-bottom: 2px solid #404040;
+    }
+
+    .content-beginnings {
+        width: 80vw;
+        display:flex ;
+        justify-content: space-around;
+        margin-left: 5vw;
+        padding-top: 15vh;
+        color: #404040;
+        font-family: "Spline Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
