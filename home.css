@@ -32,7 +32,7 @@ body {
     line-height: normal;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    border-bottom: 2px solid #404040;
+    border-bottom: 3px solid #404040;
 }
 
 .content-beginnings {
@@ -53,17 +53,17 @@ body {
 
 a {
     color:#404040;
+    transition: 3s;
 }
 
 a:visited {color:#404040;}
  
   a:hover {
     text-align: center;
-    color: #D9D9D9;
-    background-color: #404040;
+    text-decoration: underline 3px solid #404040;
     padding: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 35px;
+    padding-right: 50px;
     margin: 20px;
   }
 
@@ -169,7 +169,7 @@ a:visited {color:#404040;}
         line-height: normal;
         padding-top: 5vh;
         padding-bottom: 5vh;
-        border-bottom: 2px solid #404040;
+        border-bottom: 3px solid #404040;
     }
 
     .content-beginnings {
@@ -185,7 +185,7 @@ a:visited {color:#404040;}
         font-weight: 500;
         line-height: 60px;
         text-transform: uppercase;
-        text-align: justify;
+        text-align: center;
     }
 
     a {
