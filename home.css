@@ -16,7 +16,7 @@ body {
     line-height: 160px;
     display:inline-block;
     text-align: center;
-    width: 90vw;
+    width: 100vw;
 }
 
 .subtitle {
@@ -39,11 +39,11 @@ body {
     width: 80vw;
     display:flex ;
     justify-content: space-around;
-    margin-left: 5vw;
-    padding-top: 15vh;
-    color: #404040;
-    font-family: "Spline Sans";
-    font-size: 40px;
+        margin-left: 10vw;
+        padding-top: 15vh;
+        color: #404040;
+        font-family: "Spline Sans";
+        font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 60px;
@@ -149,11 +149,11 @@ a:visited {color:#404040;}
         line-height: 160px;
         display:inline-block;
         text-align: center;
-        width: 90vw;
+        width: 100vw;
     }
 
     .subtitle {
-        width: 90vw;
+        width: 100vw;
         display:flex ;
         justify-content: space-between;
         text-align: center;
@@ -172,11 +172,11 @@ a:visited {color:#404040;}
         width: 80vw;
         display:flex ;
         justify-content: space-around;
-        margin-left: 5vw;
+        margin-left: 10vw;
         padding-top: 15vh;
         color: #404040;
         font-family: "Spline Sans";
-        font-size: 40px;
+        font-size: 50px;
         font-style: normal;
         font-weight: 500;
         line-height: 60px;
