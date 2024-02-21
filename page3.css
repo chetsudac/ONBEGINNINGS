@@ -8,19 +8,28 @@ html {
 .container{
     width: fit-content;
     overflow:auto;
-    height: 120px;
+    height: 130px;
     width: 100vw;
     display: flex;
     padding-top: 10px;
     text-transform: uppercase;
     color: #404040;
     font-family: "Spline Sans";
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 60px;
     text-align: center;
   }
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
 
   .content-2 {
     text-align: left;
@@ -49,7 +58,7 @@ html {
     width: 100%;
     height: 50px;
     display: block;
-    margin-top: 20px;
+    border-top: 3px solid #404040;
   }
 
   .button {
