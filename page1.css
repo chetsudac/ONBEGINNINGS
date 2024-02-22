@@ -69,10 +69,11 @@ html {
   .hover {
     color: transparent;
     animation: ease-in-out;
-    transition: 3s;
+    transition: 8s;
   }
 
   .hover:hover {
     color: #404040;
     padding: 10px;
+    transition: 2s;
   }
