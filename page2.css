@@ -51,7 +51,7 @@ body {
     position: fixed;
     object-fit: cover;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 180px;
     filter: blur(1px);
     animation: fadeIn 2000ms;
 }
