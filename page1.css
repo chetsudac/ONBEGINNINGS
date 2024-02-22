@@ -6,74 +6,45 @@ html {
 marquee {
   position: fixed;
   object-fit: cover;
-  z-index: 12;
+  z-index: -12;
   font-size: 100px;
-  color: red;
+  color: #404040;
 }
 
-.scroll-container {
-        border: 0px solid transparent;
-        border-radius: 10px;
-        overflow: hidden;
-        height: 180px;
+.container {
+  justify-items:center;
+  flex-wrap: wrap;
+  display: flex; 
+  width: 50vw; 
+  align-items: center;
+  padding: 10px;
 }
 
-.scroll-life, .scroll-poetry, .scroll-paul, .scroll-paul--last {
+.content-container {
+    display: inline;
+    align-items: center;
+}
+
+.content-life, .content-poetry, .content-paul, .content-paul--last {
     overflow: hidden;
     color: #404040;
     font-family: "Spline Sans";
-    font-size: 80px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 100px;
     text-transform: uppercase;
     text-align: left;
   }
 
-.scroll-poetry, .scroll-paul--last { 
+.content-poetry, .content-paul--last { 
     text-align: right;
+    padding-left: 10vw;
 }
-  
-.scroll-life, .scroll-poetry, .scroll-paul, .scroll-paul--last {
- /* animation properties */
- -moz-transform: translateY(100%);
- -webkit-transform: translateY(100%);
- transform: translateY(100%);
- 
- -moz-animation: my-animation 10s linear infinite;
- -webkit-animation: my-animation 10s linear infinite;
- animation: my-animation 10s linear infinite;
- animation-play-state: running;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateY(100%); }
-    to { -moz-transform: translateY(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-    to {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-    }
-  }
 
-  .scroll-life:hover, .scroll-poetry:hover, .scroll-paul:hover, .scroll-paul--last:hover {
-    animation-play-state: paused;
-  }
+.content-life, .content-paul {
+    padding-right: 10vw;
+}
 
   .button-container {
     width: 100%;
@@ -89,4 +60,29 @@ marquee {
     line-height: 30px;
     display: grid;
     text-align: center;
+  }
+
+  a {
+    color:#404040;
+    text-decoration: none;
+  }
+  
+  a:visited {color:#404040; text-decoration: none;}
+  
+  
+  a:hover {
+    text-decoration: underline 3px solid #404040;
+    
+  }
+
+  span {
+    font-size: 100px;
+  }
+
+  .hover {
+    color: transparent;
+  }
+
+  .hover:hover {
+    color: #404040;
   }

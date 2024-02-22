@@ -10,7 +10,7 @@ html {
     justify-items:center;
     flex-wrap: wrap;
     display: flex; 
-    width: 50vw;
+    width: 50vw; 
     align-items: center;
     padding: 10px;
 }
