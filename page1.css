@@ -74,4 +74,5 @@ html {
 
   .hover:hover {
     color: #404040;
+    padding: 10px;
   }
