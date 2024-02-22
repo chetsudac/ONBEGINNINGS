@@ -9,12 +9,12 @@ body {
     color: #404040;
     padding-top: 10vh;
     text-align:justify;
-    text-transform: uppercase;
     font-family: "Spline Sans";
     font-size: 40px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    text-transform: uppercase;
 }
 
 .content-container {
@@ -34,7 +34,9 @@ a {
 
 #hashLink:target {
   display: block;
-  color: darkolivegreen;
+  background: #404040;
+  color: #d9d9d9;
+  font-weight: 400;
 }
 
  .button-container {
@@ -53,16 +55,61 @@ a {
       display: grid;
       text-align: center; 
     }
+
+    .button:hover {
+      font-family: 'Kulim Park', sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+      display: grid;
+      text-align: center; 
+      color: blue;
+    }
+  
   
     a {
-      color:#404040;
+      background: #d9d9d9;
       text-decoration: none;
+      color: #404040;
     }
     
-    a:visited {color:#404040; text-decoration: none;}
-    
-    
-    a:hover {
+  a:visited {color:#404040; text-decoration: none;}   
+
+  #click {
+      letter-spacing: 120%;
+      background: #404040;
+      color:#d9d9d9;
+      font-weight: 400;
+    }
+
+    #click:hover {
+      background: #d9d9d9;
+      color: #404040;
       text-decoration: underline 3px solid #404040;
-      
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    #abandon {
+      color:#404040;
+      text-transform: lowercase;
+    }
+
+    #abandon:hover {
+      text-decoration: underline 3px solid #404040;
+    }
+
+    #back {
+      background: #d9d9d9;
+      color:#404040;
+      letter-spacing: 120%;
+      font-weight: 500;
+    }
+
+    #back:hover {
+      background: #404040;
+      color:#d9d9d9;
+      text-decoration: underline 3px solid #d9d9d9;
+      font-weight: 400;
     }
