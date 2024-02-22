@@ -40,9 +40,14 @@ body {
     padding-bottom: 50px;
     padding: 10px;
     text-transform: uppercase;
-    border-bottom: 3px solid #404040;
     line-height: 60px;
     letter-spacing: 10px;
+    text-align: justify;
+    transition: 5s;
+}
+
+.trace-one:hover, .trace-two:hover, .trace-three:hover, .trace-four:hover {
+  letter-spacing: normal;
 }
 
 .trace-one {
@@ -67,6 +72,7 @@ body {
     height: 50px;
     display: block;
     margin-left: 100%;
+    border-top: 3px solid #404040;
   }
 
   .button {
@@ -74,9 +80,10 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 20px;
     display: grid;
     text-align: center;
+    padding-top: 20px;
   }
 
   a {
