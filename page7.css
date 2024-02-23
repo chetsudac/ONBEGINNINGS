@@ -6,29 +6,6 @@ html {
     color: #404040;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    grid-gap: 10px;
-    height: 100%;
-    font-size: 100px;
-    line-height: 110px;
-}
-
-#first {
-    padding-top: 120px;
-}
-
-.grid-item {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-    padding-top: 100px;
-    text-align: center;
-    border-radius: 5px;
-    height: 50vh;
-}
-
 body {
     width: 100vw;
     font-family: "Spline Sans";
@@ -40,33 +17,131 @@ body {
     text-transform: uppercase;
 }
 
-.container {
-    height: 200px;
-    width: 300px;
-    display: inline-flex;
+.title-container {
+    width: 100%;
+    height: 60px;
+    display: block;
+    border-bottom: 3px solid #404040;
+  }
+
+  .title {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    display: block;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform:uppercase;
+    color:#404040;
+    
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 10px;
+    height: 100%;
+    font-size: 100px;
+    line-height: 110px;
+    font-family: 'Kulim Park', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     align-items: center;
     justify-content:center;
-    animation-duration: 1500ms;
+    animation: motion 5s;
     animation-iteration-count: infinite;
-    transform-origin: bottom;
-}
-.child {
-    font-size: 40px;
-    width: 200px;
-    height: 100px;
+    animation-play-state: paused;
 }
 
-.container:hover {
-    animation-name: bounce;
-    animation-timing-function: ease;
+#one {
+    padding-top: 120px;
+    text-align: left;
 }
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-50px); }
-  100% { transform: translateY(0); }
+
+#two {
+    text-align: right;
+}
+
+#three {
+    text-align: left;
+}
+
+#four {
+    text-align: right;
+}
+
+.grid-item {
+    color: #404040;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+    border-radius: 5px;
+    height: 50vh;
+}
+
+.grid-container:hover {
+    animation-play-state: running;
+}
+
+@keyframes motion {
+0%   { font-size: 100px; }
+50%  { font-size: 130px; }
+100% { font-size: 100px; }
+
+}
+
+.content-container {
+    width: 100vw;
+
+    display: flex;
+    padding: 80px;
 }
 
 .content {
     padding-top: 15px;
     text-align: justify;
+    text-transform: uppercase;
+    color: #404040;
+    font-family: "Spline Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
 }
+
+.button-container {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-top: 3px solid #404040;
+  }
+
+  .button {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    display: grid;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  a {
+    color:#404040;
+    text-decoration: none;
+  }
+  
+  a:visited {color:#404040; text-decoration: none;}
+  
+  
+  a:hover {
+    text-decoration: underline 3px solid #404040;
+    
+  }
