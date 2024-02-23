@@ -17,6 +17,17 @@ body {
     text-transform: uppercase;
 }
 
+.hover {
+    background-color: #404040;
+    line-height: 60px;
+}
+
+.hover:hover {
+    background-color: #404040;
+    line-height: 60px;
+    color: #D9D9D9;
+}
+
 .title-container {
     width: 100%;
     height: 60px;
@@ -55,11 +66,10 @@ body {
     justify-content:center;
     animation: motion 5s;
     animation-iteration-count: infinite;
-    animation-play-state: paused;
 }
 
 #one {
-    padding-top: 120px;
+    padding-top: 150px;
     text-align: left;
 }
 
@@ -75,17 +85,22 @@ body {
     text-align: right;
 }
 
+#one:hover, #two:hover, #three:hover, #four:hover {
+    text-align: center;
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
 .grid-item {
     color: #404040;
     padding: 10px;
     padding-top: 100px;
     text-align: center;
-    border-radius: 5px;
     height: 50vh;
 }
 
-.grid-container:hover {
-    animation-play-state: running;
+.grid-item:hover {
+    font-style: italic;
 }
 
 @keyframes motion {
@@ -97,14 +112,13 @@ body {
 
 .content-container {
     width: 100vw;
-
-    display: flex;
+    display: grid;
     padding: 80px;
+    z-index: 25;
 }
 
 .content {
     padding-top: 15px;
-    text-align: justify;
     text-transform: uppercase;
     color: #404040;
     font-family: "Spline Sans";
@@ -112,7 +126,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-align: justify;
+    text-align: center;
 }
 
 .button-container {
